@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="timer">
+
+                <div class="timer__item border-radius">
+                    <div class="timer__time timer__time--hour">00</div>
+                    <h3 class="timer__title border-radius">Hous</h3>
+                </div>
+
+                <div class="timer__item border-radius">
+                    <div class="timer__time timer__time--minute">00</div>
+                    <h3 class="timer__title border-radius">Minutes</h3>
+                </div>
+
+                <div class="timer__item border-radius">
+                    <div class="timer__time timer__time--second">00</div>
+                    <h3 class="timer__title border-radius">Seconds</h3>
+                </div>
+
+                <div class="timer__item border-radius">
+                    <div class="timer__time timer__time--milisecond">00</div>
+                    <h3 class="timer__title border-radius">Milisecomds</h3>
+                </div>
+            </div>
+
+            <div class="timer__buttons buttons">
+                <button class="buttons__item buttons__item--start">Start</button>
+                <button class="buttons__item buttons__item--pause">Pause</button>
+                <button class="buttons__item buttons__item--stop">Stop</button>
+                <button class="buttons__item buttons__item--new">New</button>
+            </div>
+            <div class="results">
+                <h2 class="results__title">Results</h2>
+                <div class="results__inner"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
